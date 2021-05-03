@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgba(0.5, 0.5, 0, 0.8);
+}
+
+.scene , canvas{
+    position: absolute;
+    top: 0%;
+    transform: translate(0,50%);
+    transform: scale(3,3,3);
+    width: 100%;
+    height: 50%;
+} 
+
+form{
+    position: absolute;
+    top: 4;
+    left: 0;;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vmin 5vmin;
+    
+}
+
+.background{
+    background-image: url('/img/ball.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-white{
+    background-color: rgba(0.8, 0.8, 0.8, 1);
+    border-radius: 15px;
+    color: white;
+}
+.white-black{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    color: black;
+}
+
+.Hfont{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 2;
+}
+.Bfont{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 0.5;
+    font-style: normal;
+    line-height: 1.5;
+}
+input{
+    padding: 2px;
+    margin: 2px;
+}
+label{
+    margin: 5px;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    padding: 5px 15px;
+    margin: 25%;
+    border-radius: 5px;
+}
